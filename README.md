@@ -2,3 +2,4 @@
 
 - Next
 - Taiwind
+- Icons React
