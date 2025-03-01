@@ -1,14 +1,16 @@
-import Link from "next/link";
+import Pagina from "@/components/template/Pagina";
+import { IconDashboard } from "@tabler/icons-react";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-black to-zinc-800 min-h-screen">
-      <h1 className="font-black">Home</h1>
-      <nav className="flex flex-col">
-        <Link href="/primeiro">Primeiro Componente</Link>
-        <Link href="/flexbox">Flexbox</Link>
-        <Link href="/pagina">Component Pagina</Link>
-      </nav>
-    </div>
+    <Pagina>
+      <div className="flex flex-col justify-center items-center w-full h-96">
+        <IconDashboard size={100} stroke={0.5} className="text-zinc-500"/>
+        <div className="flex flex-col items-center">
+          <h1 className="text-4xl font-black">Olá, Usuário!</h1>
+          <p className="text-lg text-zinc-400">Seja bem-vindo ao sistema!!!</p>
+        </div>
+      </div>
+    </Pagina>
   );
 }

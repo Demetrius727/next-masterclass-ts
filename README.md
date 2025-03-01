@@ -1,4 +1,4 @@
-# Projeto next taiwind
+# Projeto Estudo prático next taiwind
 
 - Next
 - Taiwind
