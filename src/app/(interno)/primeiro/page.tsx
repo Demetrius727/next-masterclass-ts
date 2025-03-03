@@ -1,4 +1,3 @@
-import Pagina from "@/components/template/Pagina"
 
 export default function Primeiro() {
     const raio = 4.5
@@ -26,7 +25,7 @@ export default function Primeiro() {
     }
 
     return (
-        <Pagina>
+        
             <div>
                 {titulo}
                 <div className="flex flex-col">
@@ -39,6 +38,6 @@ export default function Primeiro() {
                     <span>{PI * Math.pow(raio, 2)}</span>
                 </div>
             </div>
-        </Pagina>
+       
     )
 }
