@@ -34,7 +34,7 @@ export default function Page() {
                         }}
                     />
                     <button onClick={adicionarTarefa} className="bg-blue-500 p-2 rounded-md">
-                        <IconSend />
+                        <IconSend className="hover:text-blue-800"/>
                     </button>
                 </div>
             </div>
@@ -45,7 +45,8 @@ export default function Page() {
                         return (
                             <li key={i} className="flex items-center bg-zinc-800 px-4 py-2 rounded-md">
                                 <span className="flex-grow">{tarefa}</span>
-                                <IconTrash size={18} className="text-red-600 cursor-pointer hover:text-orange-400" onClick={() => excluirTarefa(i)}/>
+                                <IconTrash size={18} className="text-red-600 cursor-pointer hover:text-orange-400"  onClick={() => excluirTarefa(i)}
+                                />
                             </li>
                         )
                     })}

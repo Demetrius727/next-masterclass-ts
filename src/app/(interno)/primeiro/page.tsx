@@ -25,7 +25,6 @@ export default function Primeiro() {
     }
 
     return (
-        
             <div>
                 {titulo}
                 <div className="flex flex-col">
@@ -38,6 +37,5 @@ export default function Primeiro() {
                     <span>{PI * Math.pow(raio, 2)}</span>
                 </div>
             </div>
-       
     )
 }
